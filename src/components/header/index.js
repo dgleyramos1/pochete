@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../container";
+import Container from "../Container";
 import styles from "./index.module.css";
 
-function index() {
+function Header() {
     return (
         <header className={styles.header}>
             <Container>
@@ -14,4 +14,4 @@ function index() {
     );
 }
 
-export default index;
+export default Header;
