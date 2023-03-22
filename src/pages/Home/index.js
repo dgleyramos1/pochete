@@ -1,10 +1,10 @@
-import styles from "./index.module.css";
+import Hero from "../../components/Hero";
 
 function Home() {
     return (
-        <div>
-            <p>Olá mundo!</p>
-        </div>
+        <>
+            <Hero />
+        </>
     );
 }
 
