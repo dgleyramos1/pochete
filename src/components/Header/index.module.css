@@ -1,0 +1,22 @@
+
+
+.header{
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
