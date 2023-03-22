@@ -1,0 +1,33 @@
+
+
+.posts{
+    background-color: var(--primary-color);
+    padding: 60px 0px;
+}
+
+
+.title{
+    color: #fff;
+    font-weight: 700;
+}
+
+.col{
+    display: flex;
+}
+
+
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
