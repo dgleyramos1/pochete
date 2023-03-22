@@ -15,7 +15,8 @@
 .logo{
     color: white;
     font-weight: 700;
-    font-size: 30;
+    font-size: 36px;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }

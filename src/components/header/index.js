@@ -1,13 +1,16 @@
 import React from "react";
 import Container from "../Container";
 import styles from "./index.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <header className={styles.header}>
             <Container>
                 <div className={styles.content}>
-                    <h1 className={styles.logo}>POCHETE</h1>
+                    <Link to="/" className={styles.logo}>
+                        POCHETE
+                    </Link>
                 </div>
             </Container>
         </header>

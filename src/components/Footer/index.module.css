@@ -1,0 +1,12 @@
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.author{
+    color: var(--primary-color);
+}
