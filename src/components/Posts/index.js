@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 function Posts() {
     const [posts, setPosts] = useState([]);
-    const [data, setData] = useState([]);
 
     useEffect(() => {
         getData();

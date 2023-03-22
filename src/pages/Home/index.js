@@ -1,4 +1,5 @@
 import Hero from "../../components/Hero";
+import Newsletter from "../../components/Newslleter";
 import Posts from "../../components/Posts";
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
         <>
             <Hero />
             <Posts />
+            <Newsletter />
         </>
     );
 }

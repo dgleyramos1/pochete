@@ -2,6 +2,12 @@
 .card{
     background-color: hsla(0, 0%, 98%, 1);
 }
+.title{
+    color: var(--primary-color);
+}
+.text{
+    font-size: 14px;
+}
 
 
 .btn{
