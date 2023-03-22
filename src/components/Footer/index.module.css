@@ -1,11 +1,17 @@
-
+.footer{
+    height: 60px;
+}
 
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 60px;
+    justify-content: center;
 }
-
+.content > p {
+    margin-bottom: 0;
+}
 
 .author{
     color: var(--primary-color);

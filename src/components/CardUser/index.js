@@ -10,25 +10,25 @@ function CardUser({ name, website, company, id }) {
     }
     return (
         <div
-            class={`card mb-3 ${styles.card}`}
+            className={`card mb-3 ${styles.card}`}
             onClick={() => {
                 handleUserDetails(`/user/details/${id}`);
             }}
         >
-            <div class="row g-0">
-                <div class={`col-md-4 ${styles.content_image}`}>
+            <div className="row g-0">
+                <div className={`col-md-4 ${styles.content_image}`}>
                     <img
                         src={avatar}
                         className={styles.image_avatar}
                         alt="Avatar usuário"
                     />
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">{name}</h5>
-                        <p class="card-text">{website}</p>
-                        <p class="card-text">
-                            <small class="text-muted">{company}</small>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">{name}</h5>
+                        <p className="card-text">{website}</p>
+                        <p className="card-text">
+                            <small className="text-muted">{company}</small>
                         </p>
                     </div>
                 </div>

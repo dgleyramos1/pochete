@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <Container>
                 <div className={styles.content}>
                     <p>&copy;Todos os direitos reservados</p>
