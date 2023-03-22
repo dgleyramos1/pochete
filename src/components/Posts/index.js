@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import Container from "./../Container";
 import CardPost from "../CardPost";
-import { Link } from "react-router-dom";
+import Button from "../utils/Button";
 
 function Posts() {
     const [posts, setPosts] = useState([]);
@@ -35,9 +35,7 @@ function Posts() {
                         ))}
                 </div>
                 <div className={styles.container}>
-                    <Link to="/" className={`btn ${styles.btn}`}>
-                        Veja mais
-                    </Link>
+                    <Button path="/posts" text="Veja mais" />
                 </div>
             </Container>
         </div>

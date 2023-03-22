@@ -1,22 +1,17 @@
 
 
-.posts{
-    background-color: var(--primary-color);
+.container{
     padding: 60px 0px;
+    background-color: var(--primary-color);
 }
-
 
 .title{
     color: #fff;
     font-weight: 700;
 }
 
-.col{
-    display: flex;
-}
 
-
-.container{
+.content_button{
     margin-top: 15px;
     display: flex;
     justify-content: center;

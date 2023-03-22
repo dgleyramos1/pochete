@@ -1,0 +1,14 @@
+
+.card{
+    cursor: pointer;
+    background-color: hsla(0, 0%, 98%, 1);
+}
+.content_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_avatar{
+    width: 75%;
+}
