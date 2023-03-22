@@ -22,16 +22,18 @@ function Newsletter() {
         <div>
             <Container>
                 <div className={`row ${styles.row}`}>
-                    <div className={`col-md-4 ${styles.col}`}>
+                    <div
+                        className={`col-md-6 col-lg-4 ${styles.col} ${styles.imagem}`}
+                    >
                         <img
                             src={image}
                             className={styles.image}
                             alt="Imagem da newsletter"
                         />
                     </div>
-                    <div className={`col-md-4 ${styles.col}`}>
+                    <div className={`col-md-6 col-lg-4 ${styles.col}`}>
                         <div>
-                            <h5>
+                            <h5 className={styles.title}>
                                 Assine já a nossa newsletter para não perder
                                 nenhuma novidade!
                             </h5>

@@ -26,7 +26,7 @@ function Users() {
                     {users
                         .filter((user) => user.id <= 3)
                         .map((user, key) => (
-                            <div className="col-md-4" key={key}>
+                            <div className="col-md-6 col-lg-4" key={key}>
                                 <CardUser
                                     name={user.name}
                                     website={user.website}

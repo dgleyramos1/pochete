@@ -25,7 +25,10 @@ function Posts() {
                     {posts
                         .filter((index) => index.id <= 3)
                         .map((post, key) => (
-                            <div className={`col-md-4 ${styles.col}`} key={key}>
+                            <div
+                                className={`col-md-6 col-lg-4 ${styles.col}`}
+                                key={key}
+                            >
                                 <CardPost
                                     id={post.id}
                                     title={post.title}

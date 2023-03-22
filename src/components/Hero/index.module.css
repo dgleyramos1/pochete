@@ -11,17 +11,40 @@
     justify-content: center;
 }
 .title{
-    font-size: 70px;
-    width: 480px;
-    line-height: 70px;
+    font-size: 2.4rem;
 }
 .texto{
+    font-size: 14px;
     margin: 0;
+    text-align: justify;
 }
 .img_content{
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 .image{
     width: 80%;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .img_content{
+        display: flex;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title{
+        font-size: 3.4rem;
+    }
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .image{
+        width: 70%;
+    }
 }

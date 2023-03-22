@@ -16,16 +16,16 @@ function CardUser({ name, website, company, id }) {
             }}
         >
             <div className="row g-0">
-                <div className={`col-md-4 ${styles.content_image}`}>
+                <div className={`col-4 ${styles.content_image}`}>
                     <img
                         src={avatar}
                         className={styles.image_avatar}
                         alt="Avatar usuário"
                     />
                 </div>
-                <div className="col-md-8">
+                <div className="col-8">
                     <div className="card-body">
-                        <h5 className="card-title">{name}</h5>
+                        <h5 className={`card-title ${styles.title}`}>{name}</h5>
                         <p className="card-text">{website}</p>
                         <p className="card-text">
                             <small className="text-muted">{company}</small>

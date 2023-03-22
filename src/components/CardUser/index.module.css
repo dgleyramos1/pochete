@@ -2,6 +2,7 @@
 .card{
     cursor: pointer;
     background-color: hsla(0, 0%, 98%, 1);
+    height: 100%;
 }
 .content_image{
     display: flex;
@@ -11,4 +12,9 @@
 
 .image_avatar{
     width: 75%;
+}
+
+
+.title{
+    font-size: 1rem;
 }

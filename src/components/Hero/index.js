@@ -8,7 +8,7 @@ function Hero() {
         <div className={styles.hero}>
             <Container>
                 <div className={`row ${styles.row}`}>
-                    <div className={`col-md-6 ${styles.textual}`}>
+                    <div className={`col-md-6 col-xl-4 ${styles.textual}`}>
                         <h1 className={styles.title}>Bem-vindo ao Pochete</h1>
                         <p className={styles.texto}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -18,7 +18,7 @@ function Hero() {
                             est.
                         </p>
                     </div>
-                    <div className={`col-md-6 ${styles.img_content}`}>
+                    <div className={`col-md-6 col-xl-8 ${styles.img_content}`}>
                         <img
                             src={image}
                             className={styles.image}

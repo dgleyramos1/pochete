@@ -1,7 +1,7 @@
 .row{
     justify-content: center;
     height: 300px;
-    gap: 15px;
+    flex-wrap: nowrap;
 }
 
 .image{
@@ -14,18 +14,25 @@
     justify-content: center;
 }
 
+.imagem{
+    display: none;
+}
+
 
 .content{
     width: 100%;
     display: flex;
     align-items: center;
 }
+.title{
+    font-size: 1rem;
+}
 .label{
     width: 70%;
 }
 .input{
     width: 100%;
-    height: 37px;
+    height: 38px;
     border: 1px solid #101026;
     border-right-width: 0;
     padding-left: 8px;
@@ -40,7 +47,7 @@
     width: 30%;
     height: 38px;
     border: 1px solid #101026;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0px;
     background-color: var(--secundary-color);
 }
 
@@ -48,3 +55,25 @@
     background-color: var(--secundary-color);
     border: 1px solid #101026;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .imagem{
+        display: flex;
+    }
+    .row{
+        
+        align-items: center;
+        flex-direction: row;
+        
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
