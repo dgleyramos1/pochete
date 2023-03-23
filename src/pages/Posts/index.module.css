@@ -1,0 +1,23 @@
+
+.row{
+    height: 40vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 3.5rem;
+    color: #101026;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .title{
+        font-size: 4rem;
+        text-align: left;
+    }
+}
