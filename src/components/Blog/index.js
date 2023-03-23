@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import Container from "./../Container";
 import CardPost from "../CardPost";
-import Button from "../utils/Button";
 
-function Posts({ qtd }) {
+function Blog() {
     const [posts, setPosts] = useState([]);
+    const [qtdFinal, setQtdFinal] = useState(9);
+    const [qtdInicial, setQtdinicial] = useState(0);
 
     useEffect(() => {
         getData();
@@ -17,13 +18,24 @@ function Posts({ qtd }) {
             .then((data) => setPosts(data))
             .catch((e) => console.log(e));
     }
+
+    function handleProximo() {
+        setQtdinicial(qtdFinal);
+        setQtdFinal(qtdFinal + 9);
+    }
+    function handleAnterior() {
+        setQtdFinal(qtdInicial);
+        setQtdinicial(qtdInicial - 9);
+    }
     return (
         <div className={styles.posts}>
             <Container>
-                <h2 className={styles.title}>Fórum</h2>
                 <div className={`row ${styles.row}`}>
                     {posts
-                        .filter((index) => index.id <= qtd)
+                        .filter(
+                            (post) =>
+                                post.id > qtdInicial && post.id <= qtdFinal
+                        )
                         .map((post, key) => (
                             <div
                                 className={`col-md-6 col-lg-4 ${styles.col}`}
@@ -38,11 +50,24 @@ function Posts({ qtd }) {
                         ))}
                 </div>
                 <div className={styles.container}>
-                    <Button path="/posts" text="Veja mais" />
+                    <button
+                        className={`btn ${styles.btn}`}
+                        onClick={handleAnterior}
+                        disabled={qtdInicial === 0 ? true : false}
+                    >
+                        Anterior
+                    </button>
+                    <button
+                        className={`btn ${styles.btn}`}
+                        onClick={handleProximo}
+                        disabled={posts.length >= qtdFinal ? false : true}
+                    >
+                        Próximo
+                    </button>
                 </div>
             </Container>
         </div>
     );
 }
 
-export default Posts;
+export default Blog;

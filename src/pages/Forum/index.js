@@ -1,8 +1,9 @@
 import React from "react";
-import Container from "./../../components/Container";
+import Container from "../../components/Container";
 import styles from "./index.module.css";
+import Blog from "../../components/Blog";
 
-function Posts() {
+function Forum() {
     return (
         <>
             <div>
@@ -12,7 +13,8 @@ function Posts() {
                     </div>
                 </Container>
             </div>
+            <Blog />
         </>
     );
 }
-export default Posts;
+export default Forum;

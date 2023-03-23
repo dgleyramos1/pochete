@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Hero />
-            <Posts />
+            <Posts qtd="3" />
             <Newsletter />
             <Users />
         </>

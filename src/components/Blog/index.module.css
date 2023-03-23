@@ -1,0 +1,50 @@
+
+
+.posts{
+    background-color: var(--primary-color);
+    padding: 30px 0px;
+}
+
+.row{
+    row-gap: 8px;
+}
+.title{
+    color: #fff;
+    font-weight: 700;
+}
+.col{
+    display: flex;
+}
+
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn{
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.btn:disabled{
+    background-color: #ffffff8c;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .col{
+        padding: 8px;
+    }
+    .row{
+        row-gap: 0px;
+    }
+    
+}
