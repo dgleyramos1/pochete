@@ -1,0 +1,21 @@
+.content{
+    background-color: var(--primary-color);
+    padding: 30px 5px;
+}
+
+.post{
+    text-align: left;
+}
+.post_title{
+    color: var(--primary-color);
+}
+.post_body{
+    font-size: 14px;
+}
+
+.comments{
+    text-align: left;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}

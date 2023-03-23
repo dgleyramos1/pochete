@@ -8,7 +8,7 @@ function CardPost({ title, content, id }) {
             <div className="card-body">
                 <h5 className={`card-title ${styles.title}`}>{title}</h5>
                 <p className={`card-text ${styles.text}`}>{content}</p>
-                <Link to={`/${id}`} className={`btn ${styles.btn}`}>
+                <Link to={`/posts/${id}`} className={`btn ${styles.btn}`}>
                     Saiba mais!
                 </Link>
             </div>

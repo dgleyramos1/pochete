@@ -1,6 +1,6 @@
 
 .card{
-    background-color: hsla(0, 0%, 98%, 1);
+    background-color: var(--background-color);
 }
 .title{
     color: var(--primary-color);

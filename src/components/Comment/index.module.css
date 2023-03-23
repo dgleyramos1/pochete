@@ -1,0 +1,23 @@
+.comment{
+    width: 100%;
+}
+.name{
+    font-size: 16px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.body{
+    font-size: 14px;
+    margin: 0;
+}
+.email{
+    color: #000;
+    font-size: 13px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .comment{
+        width: 75%;
+    }
+}
