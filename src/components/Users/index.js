@@ -4,7 +4,7 @@ import Container from "./../Container";
 import CardUser from "./../CardUser";
 import Button from "../utils/Button";
 
-function Users() {
+function Users({ qtd }) {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
@@ -24,7 +24,7 @@ function Users() {
                 <h2 className={styles.title}>Usuários</h2>
                 <div className={`row ${styles.row}`}>
                     {users
-                        .filter((user) => user.id <= 3)
+                        .filter((user) => user.id <= qtd)
                         .map((user, key) => (
                             <div className="col-md-6 col-lg-4" key={key}>
                                 <CardUser

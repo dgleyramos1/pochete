@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Forum from "./pages/Forum";
 import ForumDetails from "./pages/ForumDetails";
 import Home from "./pages/Home";
+import User from "./pages/User";
 
 function Rotas() {
     return (
@@ -14,6 +15,7 @@ function Rotas() {
                 <Route path="/" element={<Home />} />
                 <Route path="/posts" element={<Forum />} />
                 <Route path="/posts/:id" element={<ForumDetails />} />
+                <Route path="/users" element={<User />} />
             </Routes>
             <Footer />
         </Router>

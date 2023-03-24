@@ -12,7 +12,7 @@ function CardUser({ name, website, company, id }) {
         <div
             className={`card mb-3 ${styles.card}`}
             onClick={() => {
-                handleUserDetails(`/user/details/${id}`);
+                handleUserDetails(`/user/${id}`);
             }}
         >
             <div className="row g-0">

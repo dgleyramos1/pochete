@@ -9,7 +9,7 @@ function Home() {
             <Hero />
             <Posts qtd="3" />
             <Newsletter />
-            <Users />
+            <Users qtd="3" />
         </>
     );
 }
