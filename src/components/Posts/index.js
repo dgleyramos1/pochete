@@ -38,7 +38,7 @@ function Posts({ qtd }) {
                         ))}
                 </div>
                 <div className={styles.container}>
-                    <Button path="/posts" text="Veja mais" />
+                    <Button path="/posts" text="View more" />
                 </div>
             </Container>
         </div>

@@ -1,0 +1,10 @@
+
+.label{
+    color: var(--primary-color);
+}
+
+
+
+.input{
+    border-radius: 0px;
+}

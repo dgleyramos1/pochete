@@ -8,17 +8,19 @@ function Hero() {
         <div className={styles.hero}>
             <Container>
                 <div className={`row ${styles.row}`}>
-                    <div className={`col-md-6 col-xl-4 ${styles.textual}`}>
-                        <h1 className={styles.title}>Bem-vindo ao Pochete</h1>
+                    <div className={`col-md-6 col-xl-5 ${styles.textual}`}>
+                        <h1 className={styles.title}>Welcome to Pochete</h1>
                         <p className={styles.texto}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Phasellus congue, diam nec dignissim lacinia,
-                            velit odio ornare magna, at bibendum lorem arcu a
-                            dolor. Sed vel ex ut enim gravida iaculis quis in
-                            est.
+                            The forum offers a variety of topics, from
+                            programming and software development to mobile
+                            devices and social networking. If you're looking for
+                            a place to connect with other tech enthusiasts and
+                            learn from your peers, the Pochete forum is the
+                            perfect place for you. Join the community and start
+                            exploring the world of technology today!
                         </p>
                     </div>
-                    <div className={`col-md-6 col-xl-8 ${styles.img_content}`}>
+                    <div className={`col-md-6 col-xl-7 ${styles.img_content}`}>
                         <img
                             src={image}
                             className={styles.image}

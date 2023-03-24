@@ -21,7 +21,7 @@ function Users({ qtd }) {
     return (
         <div className={styles.container}>
             <Container>
-                <h2 className={styles.title}>Usuários</h2>
+                <h2 className={styles.title}>Users</h2>
                 <div className={`row ${styles.row}`}>
                     {users
                         .filter((user) => user.id <= qtd)
@@ -37,7 +37,7 @@ function Users({ qtd }) {
                         ))}
                 </div>
                 <div className={styles.content_button}>
-                    <Button path="/users" text="Veja mais" />
+                    <Button path="/users" text="View more" />
                 </div>
             </Container>
         </div>

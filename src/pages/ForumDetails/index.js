@@ -41,7 +41,7 @@ function ForumDetails() {
                             <h4 className={styles.post_title}>{post.title}</h4>
                             <p className={styles.post_body}>{post.body}</p>
                         </div>
-                        <p>{comments.length} Comentários</p>
+                        <p>{comments.length} Comments</p>
                         <div className={styles.comments}>
                             {comments.map((comment, key) => (
                                 <Comment

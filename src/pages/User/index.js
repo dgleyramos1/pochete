@@ -6,7 +6,7 @@ function User() {
     return (
         <>
             <Container>
-                <Painel text="Usuários" />
+                <Painel text="User" />
             </Container>
             <AllUsers />
         </>

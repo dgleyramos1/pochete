@@ -6,6 +6,7 @@ import Forum from "./pages/Forum";
 import ForumDetails from "./pages/ForumDetails";
 import Home from "./pages/Home";
 import User from "./pages/User";
+import UserDetails from "./pages/UserDetails";
 
 function Rotas() {
     return (
@@ -16,6 +17,7 @@ function Rotas() {
                 <Route path="/posts" element={<Forum />} />
                 <Route path="/posts/:id" element={<ForumDetails />} />
                 <Route path="/users" element={<User />} />
+                <Route path="/users/:id" element={<UserDetails />} />
             </Routes>
             <Footer />
         </Router>

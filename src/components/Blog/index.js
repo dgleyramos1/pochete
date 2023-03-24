@@ -55,14 +55,14 @@ function Blog() {
                         onClick={handleAnterior}
                         disabled={qtdInicial === 0 ? true : false}
                     >
-                        Anterior
+                        Previous
                     </button>
                     <button
                         className={`btn ${styles.btn}`}
                         onClick={handleProximo}
                         disabled={posts.length >= qtdFinal ? false : true}
                     >
-                        Próximo
+                        Next
                     </button>
                 </div>
             </Container>
