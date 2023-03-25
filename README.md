@@ -11,13 +11,13 @@ Projeto criado como teste para vaga de front-end junior, projeto desenvolvido co
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/dgleyramos1/pochete.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd pochete
 ```
 
 Instale as dependências
